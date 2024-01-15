@@ -8,17 +8,22 @@ body {
   border-radius: 5px;
   border-color: transparent;
   color: white;
-  width: 150px;
+  width: 210px;
   height: 64px;
   font-size: 20px;
   font-weight: 700;
   padding: 18px 35px 19px 36px;
+  text-align: center;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 nav > ul {
@@ -47,4 +52,15 @@ nav ul li a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+/* Header related syles */
+
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 50px 40px 0px 100px;
+  display: flex;
+  align-items: center;
 }
