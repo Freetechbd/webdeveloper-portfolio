@@ -16,13 +16,27 @@ body {
   text-align: center;
 }
 
+.button2 {
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  background-color: white;
+  width: 210px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  text-align: center;
+}
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 12px;
   margin-bottom: 0px;
-  margin-left: 230px;
+  margin-left: 100px;
   margin-right: 230px;
 }
 
@@ -57,10 +71,39 @@ nav ul li a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
   padding: 50px 40px 0px 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.hi {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.shortsummary {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
 }
