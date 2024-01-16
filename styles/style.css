@@ -190,3 +190,50 @@ main {
   font-weight: 400;
   color: #757575;
 }
+
+/* resume part style */
+
+.resume-container {
+  display: flex;
+  gap: 75px;
+  justify-content: space-between;
+}
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-degree {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.resume-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.resume-des {
+  line-height: 28px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.line {
+  height: 1px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 70px;
+}
